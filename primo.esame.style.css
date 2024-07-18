@@ -1,0 +1,78 @@
+body{
+  background-image:url("background.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.challenge{
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  width: 1000px;
+  height: 80%;
+
+  display: inline-block;
+  border-spacing: inherit;
+  background: linear-gradient(90deg,
+  rgba(36,5,0,0.6896008403361344) 0%,
+  rgba(33,1,1,0.3310574229691877) 0%,
+  rgba(50,48,47,0.6839985994397759) 0%);
+}
+
+.contaner{
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  top: 10%;
+}
+
+.img-logo{
+  width: 200px;
+  position: relative;
+  left: 300px;
+}
+
+h1{
+  color: rgb(76,235,32);
+  position: relative;
+  left: 200px;
+  margin: auto;
+}
+
+.input{
+  position: relative;
+  width: 750px;
+  height: 30px;
+  background-color: rgb(76,235,32);
+}
+
+.button{
+  position: absolute;
+  left: 250px;
+  top: 4px;
+}
+
+h3{
+  display: inline-block;
+  margin: auto;
+}
+
+.frecetta:after{
+  content: "\21A6"
+}
+
+.carica-1{
+  background-color: yellow;
+width: 250px;
+}
+
+.carica-2{
+  background-color: rgb(76,235,32);
+width: 400px;
+}
+
+.carica-3{
+  background-color: rgb(235, 72, 11);
+width: 100px;
+}
